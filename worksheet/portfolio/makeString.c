@@ -2,21 +2,6 @@
 /*
 Name: Joseph Butcher-Johns
 Student ID: 201948424
-Requirements:
-• The executable is run with 1-10 command line arguments
-• Each argument is 1-4 characters long
-• The output is a single string with a ‘-’ character between each argument
-For example:
-% ./makeString a b c d
-a-b-c-d
-% ./makeString helo 32 v+w
-helo-32-v+w
-Test your code in the terminal before submitting to Gradescope.
-Exam-style question
-Python accepts command–line arguments using the sys module and sys.argv parameter.
-C accepts command line arguments via the main function and argc,argv parameters.
-i. State the difference between the Python sys.argv and C argv parameters.
-ii. Explain why C requires the argc parameter and Python does not.
 */
 #include <stdio.h>
 #include <string.h>
